@@ -1,2 +1,3 @@
 apply from: "${rootProject.file('gradle-submodule/spotless.gradle')}"
 apply from: "${rootProject.file('gradle-submodule/sonarqube.gradle')}"
+apply from: "${rootProject.file('gradle-submodule/jacoco.gradle')}"
