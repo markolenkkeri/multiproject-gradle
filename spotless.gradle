@@ -1,5 +1,5 @@
 spotless {
-  java {
-    googleJavaFormat()
-  }
+    java {
+        googleJavaFormat()
+    }
 }
