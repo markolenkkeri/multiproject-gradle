@@ -1,4 +1,7 @@
 gitHooks {
     hooks = ['pre-push': 'check']
-    hooksDirectory = file('./githooks')
+    if(file(".git").exists())
+    {
+        hooksDirectory = file("../.git/modules/${project.name}/hooks")
+    }
 }
