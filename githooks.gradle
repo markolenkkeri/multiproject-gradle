@@ -1,0 +1,4 @@
+gitHooks {
+    hooks = ['pre-push': 'check']
+    hooksDirectory = file('./githooks')
+}
